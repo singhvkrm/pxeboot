@@ -129,7 +129,7 @@ prompt 0
 timeout 3000
 ONTIMEOUT LOCAL
 
-MENU TITLE Fremtek  PXE Menu
+MENU TITLE MyCo  PXE Menu
 
 LABEL LOCAL
 MENU LABEL Boot from local drive
