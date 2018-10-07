@@ -1,3 +1,5 @@
+# helper ipmitool -I lan -U root -P ADMIN -H 192.168.1.xx chassis bootdev bios or pxe 
+
 Quick rhel/centos unattendted installtion
 
 # do not forget to copy iso in httpd file directory as per httpd.conf
