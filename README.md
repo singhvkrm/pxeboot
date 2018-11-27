@@ -66,7 +66,7 @@ if option architecture = 00:06 {
 log-facility local7;
 
 include "/etc/dhcp/dhcpd.hosts";
-# skytoget.no
+# xxx.no
 subnet 192.168.1.0 netmask 255.255.255.0 {
   range 192.168.1.1 192.168.1.200;
   option subnet-mask 255.255.255.0;
@@ -85,7 +85,7 @@ firewall --disabled
 url --url="http://192.168.1.37/centos7_x64"
 # Network information
 network  --bootproto=dhcp --device=em1 --ipv6=auto --activate
-network  --hostname=cloud01-node01.skytoget.no
+network  --hostname=cloud01-node01.hostname.no
 # Root password [i used here 000000]
 rootpw --iscrypted $1$xYUugTf4$4aDhjs0XfqZ3xUqAg7fH3.
 # System authorization information
